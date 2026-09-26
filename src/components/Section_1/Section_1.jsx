@@ -1,11 +1,12 @@
 import HeroSection from "./HeroSection";
 import Navbar from "./Navbar";
 
-const Section_1 = () => {
+const Section_1 = (props) => {
+  console.log(props.cardData);
   return (
-    <div className="h-full w-full bg-amber-700">
+    <div className="h-full w-full ">
       <Navbar />
-      <HeroSection />
+      <HeroSection cardData={props.cardData} />
     </div>
   );
 };

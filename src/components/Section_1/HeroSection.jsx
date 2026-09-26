@@ -1,9 +1,11 @@
 import HeroLeft from "./HeroLeft";
+import HeroRight from "./HeroRight";
 
-const HeroSection = () => {
+const HeroSection = (props) => {
   return (
-    <div className="justify-between flex gap-8 py-10 bg-violet-500">
+    <div className="justify-between flex gap-8 py-10">
       <HeroLeft />
+      <HeroRight cardData={props.cardData} />
     </div>
   );
 };

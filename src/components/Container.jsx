@@ -1,9 +1,9 @@
 import Section_1 from "./Section_1/Section_1";
 
-const Container = () => {
+const Container = (props) => {
   return (
-    <div className="max-w-3xl h-screen mx-auto p-5 bg-amber-400">
-      <Section_1 />
+    <div className="max-w-5xl h-screen mx-auto p-5 ">
+      <Section_1 cardData={props.cardData} />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-5 bg-black">
+    <div className="flex justify-between items-center py-5 ">
       <h4 className="px-5 py-2 bg-black rounded-full text-white uppercase">
         Target Audience
       </h4>
