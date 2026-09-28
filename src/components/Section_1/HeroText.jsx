@@ -1,7 +1,7 @@
 const HeroText = () => {
   return (
     <div className="flex flex-col justify-between gap-6">
-      <h1 className="text-3xl font-bold leading-8">
+      <h1 className="text-5xl font-bold leading-10">
         Prospective <span className="text-neutral-400">customer</span>{" "}
         segmentation{" "}
       </h1>
